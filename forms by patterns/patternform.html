@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../form tag/login sucsess.html" method="post">
+        <fieldset>
+            <legend>Registration form:</legend>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" pattern="[a-zA-Z]+" required placeholder="Userrname"><br>
+            <label for="password">Password</label>
+            <input type="text" name="password" id="password" placeholder="password" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#%&]).{8,9}"><br>
+            <label for="e-mail">E-mail</label>
+            <input type="text" name="ajayy" id="ajayy" placeholder="e-mail"required pattern="[a-z\d._]+@[a-z]+\.[a-z]{2,}"><br>
+            <label for="phn no">phn no</label>
+            <input type="text" name="phn no" id="phn no" placeholder="0000000000" required pattern="\+91[6_9]\d{9}"><br>
+            <label for="date">date</label>
+            <input type="text" name="date" id="date" placeholder="00-00-0000" required pattern="(0?[1-9]|[12][0-9]|3[01])-(0?[1-9]|1[0-2])-[0-9]{4}" title="data should be in format of dd-mm-yyyy"><br>
+            <label for="state">states</label>
+            <select name="state" id="state">
+                <option value="telangana">Telangana</option>
+                <option value="andhra-pradesh">Andhra-pradesh</option>
+                <option value="karnataka">Karnataka</option>
+            </select><br> 
+            <label for="cities">cities</label>
+            <input type="list" name="cities" id="cities">
+            <datalist>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Amaravathi">Amaravathi</option>
+            </datalist>                     
+            <input type="submit" value="submit" >
+
+        </fieldset>
+    </form>
+</body>
+</html>

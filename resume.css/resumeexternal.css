@@ -1,0 +1,54 @@
+h1{
+    color: aqua;background-color: black;
+}
+h2{
+    color: aqua;background-color: black;
+}
+.a{
+    color: aliceblue;
+}
+.b{
+    color: burlywood;
+}
+.c{
+    color: azure;
+}
+.d{
+    color: bisque;
+}
+.e{
+    color: aquamarine;
+}
+.f{
+    color: blueviolet;background-color: aqua;
+}
+.g{
+    color: brown;background-color: aqua;
+}
+.h{
+    color:rgb(255, 173, 244);background-color: aqua;
+}
+.i{
+    color: grey;background-color: aqua;
+}
+.j{
+    color: indigo;
+}
+.k{
+    color: white;
+}
+.l{
+    color: blanchedalmond;
+}
+.m{
+    color: yellow;
+}
+n.{
+    color: greenyellow;
+}
+#a{
+    color: blueviolet;background-color: rgb(241, 243, 245);
+}
+#b{
+    color: azure;background-color: hsl(0, 72%, 43%);
+}
